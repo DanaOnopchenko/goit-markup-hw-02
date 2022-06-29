@@ -1,1 +1,31 @@
-/*  */
+/*background-color-main #e5e5e5
+ background-color-grey #F5F4FA
+background-color-black #2F303A
+*/
+/* 
+white-primary-color #FFFFFF
+white-secondary-color rgba(255, 255, 255, 0.6);
+
+primary-text-color #212121
+secondary-text-color #757575
+
+accent-color #2196F3;
+
+logo-black #000000
+btn-bgr-color #2196F3;
+btn-hover-hero #188CE8   
+btn-portfolio #F5F4FA
+btn-portfolio-hover #2196F3
+*/
+/* font-family Roboto  900, 700, 500, 400
+logo-accent Raleway 700
+*/
+
+/* body */
+:root {
+}
+
+body {
+  background-color: #e5e5e5;
+  font-family: 'Roboto', sans-serif;
+}
