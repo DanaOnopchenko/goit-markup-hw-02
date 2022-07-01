@@ -5,6 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Портфолио</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
@@ -12,11 +18,13 @@
     <header class="header">
       <!-- header navigation -->
       <nav class="header-nav">
-        <a class="link header-logo" href=""><span class="logo-accent">Web</span>Studio</a>
+        <a class="logo link" href=""><span class="logo-accent">Web</span>Studio</a>
         <ul class="list nav-list">
-          <li class="nav-item"><a class="link nav-link" href="./index.html">Студия</a></li>
-          <li class="nav-item"><a class="link nav-link" href="./portfolio.html">Портфолио</a></li>
-          <li class="nav-item"><a class="link nav-link" href="">Контакты</a></li>
+          <li class="nav-item"><a class="nav-link link" href="./index.html">Студия</a></li>
+          <li class="nav-item">
+            <a class="nav-link link link-current" href="./portfolio.html">Портфолио</a>
+          </li>
+          <li class="nav-item"><a class="nav-link link" href="">Контакты</a></li>
         </ul>
       </nav>
       <!-- header auth -->
@@ -36,7 +44,9 @@
         <h1 hidden>Портфолио</h1>
         <!-- Filter portfolio -->
         <ul class="list filter-list">
-          <li class="filter-item"><button class="filter-btn" type="button">Все</button></li>
+          <li class="filter-item">
+            <button class="filter-btn current" type="button">Все</button>
+          </li>
           <li class="filter-item"><button class="filter-btn" type="button">Веб-сайты</button></li>
           <li class="filter-item"><button class="filter-btn" type="button">Приложения</button></li>
           <li class="filter-item"><button class="filter-btn" type="button">Дизайн</button></li>
@@ -64,7 +74,7 @@
               height="294"
             />
             <h2 class="portfolio-subtitle">
-              Постер <span lang="en">New Orlean vs Golden Star </span>>
+              Постер <span lang="en">New Orlean vs Golden Star </span>
             </h2>
             <p class="portfolio-desc">Дизайн</p>
           </li>
@@ -98,7 +108,7 @@
               width="370"
               height="294"
             />
-            <h2 class="portfolio-subtitle">Проект <span>Boxes</span>></h2>
+            <h2 class="portfolio-subtitle">Проект <span>Boxes</span></h2>
             <p class="portfolio-desc">Приложение</p>
           </li>
           <li class="portfolio-item">
@@ -120,7 +130,7 @@
               width="370"
               height="294"
             />
-            <h2 class="portfolio-subtitle">Издание <span lang="en">Limited Edition</span>></h2>
+            <h2 class="portfolio-subtitle">Издание <span lang="en">Limited Edition</span></h2>
             <p class="portfolio-desc">Дизайн</p>
           </li>
           <li class="portfolio-item">
@@ -131,7 +141,7 @@
               width="370"
               height="294"
             />
-            <h2 class="portfolio-subtitle">Проект <span lang="en">LAB</span>></h2>
+            <h2 class="portfolio-subtitle">Проект <span lang="en">LAB</span></h2>
             <p class="portfolio-desc">Маркетинг</p>
           </li>
           <li class="portfolio-item">
@@ -150,7 +160,9 @@
     </main>
     <!-- footer section -->
     <footer class="footer">
-      <a class="link footer-logo" href="./index.html"><span class="logo-accent">Web</span>Studio</a>
+      <a class="link logo footer-logo" href="./index.html"
+        ><span class="logo-accent">Web</span>Studio</a
+      >
       <address class="footer-adress">
         <p class="footer-desc">г. Киев, пр-т Леси Украинки, 26</p>
         <ul class="list footer-list">
