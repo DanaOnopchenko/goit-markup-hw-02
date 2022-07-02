@@ -8,10 +8,8 @@ btn-portfolio-hover #2196F3 - accent
 logo-accent Raleway 700
 */
 
-/*
- #ECECEC;
+/* #ECECEC; */
 
- */
 :root {
   /* fonts */
   --main-font: 'Roboto';
@@ -73,7 +71,7 @@ body {
 .nav-link:focus {
   color: var(--accent-color);
 }
-.link-current {
+.current {
   color: var(--accent-color);
 }
 
@@ -89,8 +87,8 @@ body {
 /* hover  focus */
 .header-phone:hover,
 .header-email:hover,
-.footer-email:hover,
-.footer-phone:hover {
+.header-phone:focus,
+.header-email:focus {
   color: var(--accent-color);
 }
 
@@ -110,6 +108,13 @@ body {
 .hero-btn {
   background-color: var(--accent-color);
   color: var(--white-main-color);
+  font-family: 'Roboto';
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: calc(30 / 16);
+  letter-spacing: 0.06em;
+  cursor: pointer;
 }
 .hero-btn:hover {
   background-color: var(--btn-hover-hero);
@@ -134,6 +139,7 @@ body {
   font-size: 36px;
   line-height: calc(42 / 36);
   letter-spacing: 0.03em;
+  text-align: center;
 }
 
 /* section team */
@@ -149,7 +155,6 @@ body {
 .team-desc {
   line-height: calc(19 / 16);
   letter-spacing: 0.03em;
-
   color: var(--secondary-txt-color);
 }
 
@@ -177,18 +182,28 @@ body {
   letter-spacing: 0.03em;
   color: var(--white-secondary-color);
 }
+.footer-email:hover,
+.footer-phone:hover,
+.footer-email:focus,
+.footer-phone:focus {
+  color: var(--accent-color);
+}
 
 /* page portfolio */
 .filter-btn {
   font-family: var(--main-font);
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: calc(26 / 16);
   letter-spacing: 0.03em;
   color: var(--primary-txt-color);
   background-color: var(--bg-color-grey);
+  cursor: pointer;
 }
-
+.filter-btn:hover,
+.filter-btn:focus {
+  background-color: var(--accent-color);
+}
 .portfolio-subtitle {
   font-size: 18px;
   line-height: calc(36 / 18);
