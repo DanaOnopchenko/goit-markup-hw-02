@@ -108,7 +108,7 @@ body {
 .hero-btn {
   background-color: var(--accent-color);
   color: var(--white-main-color);
-  font-family: 'Roboto';
+  font-family: inherit;
 
   font-weight: 700;
   font-size: 16px;
@@ -165,21 +165,18 @@ body {
 .footer-logo {
   color: var(--white-main-color);
 }
-.footer-desc {
+.footer-adress {
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
+}
+
+.footer-desc {
   color: var(--white-main-color);
 }
 .footer-email,
 .footer-phone {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: calc(24 / 14);
-  letter-spacing: 0.03em;
   color: var(--white-secondary-color);
 }
 .footer-email:hover,
@@ -191,7 +188,7 @@ body {
 
 /* page portfolio */
 .filter-btn {
-  font-family: var(--main-font);
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: calc(26 / 16);
